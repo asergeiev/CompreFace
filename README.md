@@ -112,6 +112,7 @@ gender recognition
 # Functionalities
 
 - Supports many face recognition services:
+<<<<<<< Updated upstream
   - face identification
   - face verification
   - face detection
@@ -120,6 +121,16 @@ gender recognition
   - age recognition 
   - gender recognition
   - mask detection
+=======
+  - [face detection](https://github.com/exadel-inc/CompreFace/blob/master/docs/Face-services-and-plugins.md#face-detection)
+  - [face recognition](https://github.com/exadel-inc/CompreFace/blob/master/docs/Face-services-and-plugins.md#face-recognition)
+  - [face verification](https://github.com/exadel-inc/CompreFace/blob/master/docs/Face-services-and-plugins.md#face-verification)
+  - [landmark detection plugin](https://github.com/exadel-inc/CompreFace/blob/master/docs/Face-services-and-plugins.md#face-plugins)
+  - [age recognition plugin](https://github.com/exadel-inc/CompreFace/blob/master/docs/Face-services-and-plugins.md#face-plugins)
+  - [gender recognition plugin](https://github.com/exadel-inc/CompreFace/blob/master/docs/Face-services-and-plugins.md#face-plugins)
+  - [face mask detection plugin](https://github.com/exadel-inc/CompreFace/blob/master/docs/Face-services-and-plugins.md#face-plugins)
+  - [adjustable face recognition similarity threshold](https://github.com/exadel-inc/CompreFace/blob/master/docs/Face-Recognition-Similarity-Threshold.md)
+>>>>>>> Stashed changes
 - Use the ComperFace UI panel for convenient user roles and access management
 
 # Getting Started with CompreFace
