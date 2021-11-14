@@ -1,0 +1,52 @@
+<!--
+  ~ Copyright (c) 2020 the original author or authors
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~      https://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express
+  ~ or implied. See the License for the specific language governing
+  ~ permissions and limitations under the License.
+  -->
+<mat-card class="login-card">
+  <div class="form-card--logo">
+    <img src="assets/img/face-recognition-logo.svg" class="logo-img" alt="log-in-logo" />
+  </div>
+  <mat-card-header class="form-card--title">
+    <mat-card-title>{{ 'login.title' | translate }}</mat-card-title>
+  </mat-card-header>
+  <mat-card-content>
+    <form class="form-card--form" [formGroup]="form" (ngSubmit)="onSubmit()" id="loginForm">
+      <mat-form-field appearance="outline" hideRequiredMarker>
+        <mat-label>{{ 'login.email' | translate }}</mat-label>
+        <mat-error>
+          <span>{{ 'login.email_hint' | translate }}</span>
+        </mat-error>
+        <input matInput formControlName="email" name="email" required />
+      </mat-form-field>
+      <mat-form-field appearance="outline" hideRequiredMarker>
+        <mat-label>{{ 'login.password' | translate }}</mat-label>
+        <mat-error>
+          <span>{{ 'login.password_hint' | translate }}</span>
+        </mat-error>
+        <input matInput formControlName="password" type="password" name="password" required />
+      </mat-form-field>
+    </form>
+  </mat-card-content>
+  <mat-card-actions class="form-card--btn-wrapper">
+    <button class="btn" mat-flat-button type="submit" color="primary" form="loginForm" [disabled]="form.invalid || (isLoading$ | async)">
+      {{ 'login.login' | translate }}
+    </button>
+    <div class="link">
+      <span
+        >{{ 'login.no_account' | translate }}
+        <a color="primary" [routerLink]="[routes.SignUp]">{{ 'login.sign_up' | translate }}</a>
+      </span>
+    </div>
+  </mat-card-actions>
+</mat-card>
