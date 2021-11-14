@@ -1,0 +1,1 @@
+<Redirect to="/srs/pages/index.js" />
