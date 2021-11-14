@@ -14,7 +14,7 @@ const config = {
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'asergeiev', // Usually your GitHub org/user name.
-  projectName: 'comperface', // Usually your repo name.
+  projectName: 'asergeiev.github.io', // Usually your repo name.
 
   presets: [
     [
