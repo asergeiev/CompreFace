@@ -1,15 +1,33 @@
-# CompreFace documentation
+# Website
 
-## Links
+This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
 
-* [How to Use CompreFace](How-to-Use-CompreFace.md)
-* [Face Services and Plugins](Face-services-and-plugins.md)
-* [Rest API Description](Rest-API-description.md)
-* [Face Recognition Similarity Threshold](Face-Recognition-Similarity-Threshold.md)
-* [Configuration](Configuration.md)
-* [Architecture and Scalability](Architecture-and-scalability.md)
-* [Custom Builds](Custom-builds.md)
-* [Face data migration](Face-data-migration.md)
-* [User Roles System](User-Roles-System.md)
-* [Face Mask Detection Plugin](Mask-detection-plugin.md)
-* [Gathering Anonymous Statistics](Gathering-anonymous-statistics.md)
+### Installation
+
+```
+$ yarn
+```
+
+### Local Development
+
+```
+$ yarn start
+```
+
+This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+
+### Build
+
+```
+$ yarn build
+```
+
+This command generates static content into the `build` directory and can be served using any static contents hosting service.
+
+### Deployment
+
+```
+$ GIT_USER=<Your GitHub username> USE_SSH=true yarn deploy
+```
+
+If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
