@@ -96,12 +96,6 @@ alt="compreface-main-page" width="390px" style="padding: 0px 0px 0px 10px;">
 # Features
 The system can accurately identify people even when it has only “seen” their photo once. Technology-wise, CompreFace has several advantages over similar free face recognition solutions. CompreFace:
 
-<<<<<<< Updated upstream
-- Supports many face recognition services: face identification, face verification, face detection, face mask detection, landmark detection, 
-  and age and 
-gender recognition
-=======
->>>>>>> Stashed changes
 - Supports both CPU and GPU and is easy to scale up
 - Is open source and self-hosted, which gives you additional guarantees for data security
 - Can be deployed either in the cloud or on premises
@@ -112,16 +106,6 @@ gender recognition
 # Functionalities
 
 - Supports many face recognition services:
-<<<<<<< Updated upstream
-  - face identification
-  - face verification
-  - face detection
-  - adjustable face recognition similarity threshold 
-  - landmark detection
-  - age recognition 
-  - gender recognition
-  - mask detection
-=======
   - [face detection](https://github.com/exadel-inc/CompreFace/blob/master/docs/Face-services-and-plugins.md#face-detection)
   - [face recognition](https://github.com/exadel-inc/CompreFace/blob/master/docs/Face-services-and-plugins.md#face-recognition)
   - [face verification](https://github.com/exadel-inc/CompreFace/blob/master/docs/Face-services-and-plugins.md#face-verification)
@@ -129,8 +113,6 @@ gender recognition
   - [age recognition plugin](https://github.com/exadel-inc/CompreFace/blob/master/docs/Face-services-and-plugins.md#face-plugins)
   - [gender recognition plugin](https://github.com/exadel-inc/CompreFace/blob/master/docs/Face-services-and-plugins.md#face-plugins)
   - [face mask detection plugin](https://github.com/exadel-inc/CompreFace/blob/master/docs/Face-services-and-plugins.md#face-plugins)
-  - [adjustable face recognition similarity threshold](https://github.com/exadel-inc/CompreFace/blob/master/docs/Face-Recognition-Similarity-Threshold.md)
->>>>>>> Stashed changes
 - Use the ComperFace UI panel for convenient user roles and access management
 
 # Getting Started with CompreFace

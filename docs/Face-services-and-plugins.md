@@ -25,7 +25,7 @@ The most useful cases include face plugins for face analysis:
   * get landmark information to know where customers look at
   * gather statistics on how many customers in the store
 
-**How to use**
+**How to test**
 
 1. On the ComperFace application page, at the bottom of the frame, click Create button.
 2. In the Create Service dialog, from the Type drop-down menu, select DETECTION.
@@ -50,7 +50,7 @@ The possible cases include:
   * when you have photos of conference attendees and want to track who was interested in which topics.
   * when you have photos of VIP guests and you want to find them among the crowd very quickly.
 
-**How to use**
+**How to test**
 
 1. On the ComperFace application page, at the bottom of the frame, click Create button.
 2. In the Create Service dialog, from the Type drop-down menu, select RECOGNITION.
@@ -74,7 +74,7 @@ The possible cases include:
   * when a customer provides you an ID or driving license and you need to verify if this is him
   * when a user connects his social network account to your application and you want to verify if this is him
 
-**How to use**
+**How to test**
 
 1. On the ComperFace application page, at the bottom of the frame, click Create button.
 2. In the Create Service dialog, from the Type drop-down menu, select VERIFICATION.
