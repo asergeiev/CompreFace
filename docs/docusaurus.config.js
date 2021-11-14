@@ -9,12 +9,13 @@ const config = {
   title: 'My Site',
   tagline: 'Dinosaurs are cool',
   url: 'https://asergeiev.github.io',
-  baseUrl: '/comperface/',
+  baseUrl: '/docs/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'asergeiev', // Usually your GitHub org/user name.
   projectName: 'asergeiev.github.io', // Usually your repo name.
+  trailingSlash: 'true',
 
   presets: [
     [
