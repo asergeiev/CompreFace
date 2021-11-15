@@ -9,12 +9,12 @@ const config = {
   title: 'My Site',
   tagline: 'Dinosaurs are cool',
     url: 'https://asergeiev.github.io/CompreFace/',
-  baseUrl: '/comperface/',
+  baseUrl: '/ComperFace/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'asergeiev', // Usually your GitHub org/user name.
-  projectName: 'asergeiev.github.io', // Usually your repo name.
+  projectName: 'ComperFace', // Usually your repo name.
   trailingSlash: 'false',
 
   presets: [
