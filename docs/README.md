@@ -1,1 +1,1 @@
-<Redirect to="/srs/pages/index.js" />
+redirect: /src/pages/index.js
