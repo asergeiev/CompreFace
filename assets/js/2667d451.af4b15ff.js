@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkcompreface=self.webpackChunkcompreface||[]).push([[45],{3989:function(e){e.exports=JSON.parse('{"allTagsPath":"/CompreFace/blog/tags","slug":"/CompreFace/blog/tags/hello","name":"hello","count":2,"permalink":"/CompreFace/blog/tags/hello"}')}}]);
